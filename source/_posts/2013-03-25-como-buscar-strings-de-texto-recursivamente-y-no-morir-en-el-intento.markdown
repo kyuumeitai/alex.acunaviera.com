@@ -11,7 +11,9 @@ Como les decía, ahora estoy usando Octopress. Y lo instalé, (y subí, via rsyn
 1. Necesito generar otro *layout* en Octopress para hacer quickies y tirar tips rápido.
 2. Necesito buscar recursivamente textos tipo "Posted" de forma rápida, para saber dónde editar y no revisar los archivos uno por uno.
 
-Para el primero necesito tiempo (y estoy terminando mi hora de almuerzo, así que para la otra), pero el segundo punto lo utilizo a menudo en Multinet. Dice así:
+Para el primero necesito tiempo (y estoy terminando mi hora de almuerzo, así que para la otra), pero el segundo punto lo utilizo a menudo en Multinet. 
+<!-- more -->
+Dice así:
 
 	$ grep -H -r "Posted" .
 	

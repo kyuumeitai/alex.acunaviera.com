@@ -101,27 +101,14 @@
 </ol>
 
 
-<p>Para el primero necesito tiempo (y estoy terminando mi hora de almuerzo, así que para la otra), pero el segundo punto lo utilizo a menudo en Multinet. Dice así:</p>
+<p>Para el primero necesito tiempo (y estoy terminando mi hora de almuerzo, así que para la otra), pero el segundo punto lo utilizo a menudo en Multinet.</p>
 
-<pre><code>$ grep -H -r "Posted" .
-</code></pre>
-
-<p>Donde <code>grep</code> es una utilidad para buscar texto, el modificador <code>-H</code> hace que siempre salga al principio el archivo donde está el texto a buscar, no importa que se repita el archivo <code>-r</code> lo hace recursivo, &#8220;Posted&#8221; es el string de texto a buscar, y con el <code>.</code> especifico dónde quiero buscarlo (el punto quiere decir <em>búscalo aquí, en el directorio donde estoy parado</em>).</p>
-
-<p>La salida de este comando arrojó lo siguiente:</p>
-
-<pre><code>./.themes/classic/source/_includes/post/author.html:
-./public/blog/2013/03/25/hola-mundo-bienvenido-a-wordp-dot-dot-dot-oh/index.html:&lt;span class="byline author vcard"&gt;Posted by &lt;span class="fn"&gt;Álex Acuña Viera&lt;/span&gt;&lt;/span&gt;
-./source/_includes/post/author.html:
-</code></pre>
-
-<p>Y otras líneas más (era mucho, pero así se entiende).</p>
-
-<p>Si se fijan, el primero tiene el layout de Octopress, luego vienen los archivos compilados en HTML de los posts anteriores, y el resto eran los archivos markdown donde estoy escribiendo en este momento.</p>
-
-<p>Así, puedo ir, modificar el archivo y listo.</p>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/03/25/como-buscar-strings-de-texto-recursivamente-y-no-morir-en-el-intento/">Read on &rarr;</a>
+    </footer>
   
 
 

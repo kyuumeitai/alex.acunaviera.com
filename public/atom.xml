@@ -4,7 +4,7 @@
   <title><![CDATA[Álex Acuña Viera]]></title>
   <link href="http://alex.acunaviera.com/atom.xml" rel="self"/>
   <link href="http://alex.acunaviera.com/"/>
-  <updated>2013-03-25T14:50:36-03:00</updated>
+  <updated>2013-03-25T14:58:36-03:00</updated>
   <id>http://alex.acunaviera.com/</id>
   <author>
     <name><![CDATA[Álex Acuña Viera]]></name>
@@ -26,7 +26,12 @@
 </ol>
 
 
-<p>Para el primero necesito tiempo (y estoy terminando mi hora de almuerzo, así que para la otra), pero el segundo punto lo utilizo a menudo en Multinet. Dice así:</p>
+<p>Para el primero necesito tiempo (y estoy terminando mi hora de almuerzo, así que para la otra), pero el segundo punto lo utilizo a menudo en Multinet.</p>
+
+<!-- more -->
+
+
+<p>Dice así:</p>
 
 <pre><code>$ grep -H -r "Posted" .
 </code></pre>
