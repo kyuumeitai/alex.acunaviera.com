@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Otro test 2"
+date: 2013-03-11 10:10
+comments: true
+categories: 
+---
+#h1 está acá

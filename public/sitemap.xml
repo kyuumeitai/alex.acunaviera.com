@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://alex.acunaviera.com/blog/2013/03/08/hola-mundo-bienvenido-a-wordpr-dot-dot-dot-que/
+        </loc>
+        <lastmod>2013-03-11T10:06:02-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://alex.acunaviera.com/blog/2013/03/11/otro-test-2/</loc>
+        <lastmod>2013-03-11T10:10:37-03:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://alex.acunaviera.com/blog/2013/03/13/hola-este-texto-tiene-tildes-como-nandu/
+        </loc>
+        <lastmod>2013-03-13T09:41:26-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://alex.acunaviera.com/blog/2013/03/13/testing2/</loc>
+        <lastmod>2013-03-13T10:04:11-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://alex.acunaviera.com/blog/archives/</loc>
+        <lastmod>2013-03-13T10:04:11-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://alex.acunaviera.com/</loc>
+        <lastmod>2013-03-13T10:04:11-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://alex.acunaviera.com/robots.txt</loc>
+        <lastmod>2013-03-08T17:38:06-03:00</lastmod>
+    </url>
+</urlset>

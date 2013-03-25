@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Testing the test]]></title>
+  <link href="http://alex.acunaviera.com/atom.xml" rel="self"/>
+  <link href="http://alex.acunaviera.com/"/>
+  <updated>2013-03-13T19:15:28-03:00</updated>
+  <id>http://alex.acunaviera.com/</id>
+  <author>
+    <name><![CDATA[Alex Acuña Viera]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[testing2]]></title>
+    <link href="http://alex.acunaviera.com/blog/2013/03/13/testing2/"/>
+    <updated>2013-03-13T10:04:00-03:00</updated>
+    <id>http://alex.acunaviera.com/blog/2013/03/13/testing2</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[¡Hola! este texto tiene tildes. ¿Cómo? Ñandú.]]></title>
+    <link href="http://alex.acunaviera.com/blog/2013/03/13/hola-este-texto-tiene-tildes-como-nandu/"/>
+    <updated>2013-03-13T09:41:00-03:00</updated>
+    <id>http://alex.acunaviera.com/blog/2013/03/13/hola-este-texto-tiene-tildes-como-nandu</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Otro test 2]]></title>
+    <link href="http://alex.acunaviera.com/blog/2013/03/11/otro-test-2/"/>
+    <updated>2013-03-11T10:10:00-03:00</updated>
+    <id>http://alex.acunaviera.com/blog/2013/03/11/otro-test-2</id>
+    <content type="html"><![CDATA[<h1>h1 está acá</h1>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hola Mundo! Bienvenido a WordPr... ¿Qué?]]></title>
+    <link href="http://alex.acunaviera.com/blog/2013/03/08/hola-mundo-bienvenido-a-wordpr-dot-dot-dot-que/"/>
+    <updated>2013-03-08T18:43:00-03:00</updated>
+    <id>http://alex.acunaviera.com/blog/2013/03/08/hola-mundo-bienvenido-a-wordpr-dot-dot-dot-que</id>
+    <content type="html"><![CDATA[<h1>hola!</h1>
+
+<h2>hola</h2>
+
+<h3>hola hola oh</h3>
+
+<h4>hola hola hola hola oh</h4>
+
+<h6>ratoncitos, ratoncitos.</h6>
+]]></content>
+  </entry>
+  
+</feed>
