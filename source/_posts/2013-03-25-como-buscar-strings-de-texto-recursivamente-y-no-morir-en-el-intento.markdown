@@ -27,7 +27,10 @@ La salida de este comando arrojó lo siguiente:
 
 Y otras líneas más (era mucho, pero así se entiende).
 	
-Si se fijan, el primero tiene el layout de Octopress, luego vienen los archivos compilados en HTML de los posts anteriores, y el resto eran los archivos markdown donde estoy escribiendo en este momento.
+Si se fijan, el primero tiene el layout de Octopress, luego vienen los posts compilados, los markdown y así. En sumo, habían dos archivos que me interesaban:
 
-Así, puedo ir, modificar el archivo y listo.
+	.themes/classic/source/_includes/post/author.html
+	.source/_includes/post/author.html
+
+Así, puedo ir, modificar el archivo y listo. Ahora abajo dice "Escrito por".
 
