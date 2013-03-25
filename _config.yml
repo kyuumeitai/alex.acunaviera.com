@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://alex.acunaviera.com
-title: Testing the test
-subtitle: A testing for the test
-author: Alex Acuña Viera
+title: Álex Acuña Viera
+subtitle: Code thoughts and other randomness
+author: Álex Acuña Viera
 simple_search: http://google.com/search
-description: Esto es una descripción.
+description: Este es el blog de Álex Acuña Viera, Diseñador Gráfico y Desarrollador.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

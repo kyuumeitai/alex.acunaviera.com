@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Testing the test]]></title>
+  <title><![CDATA[Álex Acuña Viera]]></title>
   <link href="http://alex.acunaviera.com/atom.xml" rel="self"/>
   <link href="http://alex.acunaviera.com/"/>
-  <updated>2013-03-13T19:15:28-03:00</updated>
+  <updated>2013-03-25T01:21:21-03:00</updated>
   <id>http://alex.acunaviera.com/</id>
   <author>
-    <name><![CDATA[Alex Acuña Viera]]></name>
+    <name><![CDATA[Álex Acuña Viera]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
