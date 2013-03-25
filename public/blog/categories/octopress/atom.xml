@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Álex Acuña Viera]]></title>
-  <link href="http://alex.acunaviera.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Álex Acuña Viera]]></title>
+  <link href="http://alex.acunaviera.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://alex.acunaviera.com/"/>
   <updated>2013-03-25T14:50:36-03:00</updated>
   <id>http://alex.acunaviera.com/</id>
@@ -12,41 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Cómo buscar strings de texto recursivamente y no morir en el intento.]]></title>
-    <link href="http://alex.acunaviera.com/blog/2013/03/25/como-buscar-strings-de-texto-recursivamente-y-no-morir-en-el-intento/"/>
-    <updated>2013-03-25T14:27:00-03:00</updated>
-    <id>http://alex.acunaviera.com/blog/2013/03/25/como-buscar-strings-de-texto-recursivamente-y-no-morir-en-el-intento</id>
-    <content type="html"><![CDATA[<p>Como les decía, ahora estoy usando Octopress. Y lo instalé, (y subí, via rsync, como lo dice el tutorial). Nada muy complejo. Entonces, me encuentro con el sitio por defecto, y empiezo a buscar ciertos strings para reemplazar la traducción (porque <a href="http://o.tiuque.cl/aprendiendo/octopress/">como bien dice el @zentaurus</a>, no tiene un sistema centralizado para hacer traducciones). Entonces, me di cuenta de dos cosas:</p>
-
-<ol>
-<li>Necesito generar otro <em>layout</em> en Octopress para hacer quickies y tirar tips rápido.</li>
-<li>Necesito buscar recursivamente textos tipo &#8220;Posted&#8221; de forma rápida, para saber dónde editar y no revisar los archivos uno por uno.</li>
-</ol>
-
-
-<p>Para el primero necesito tiempo (y estoy terminando mi hora de almuerzo, así que para la otra), pero el segundo punto lo utilizo a menudo en Multinet. Dice así:</p>
-
-<pre><code>$ grep -H -r "Posted" .
-</code></pre>
-
-<p>Donde <code>grep</code> es una utilidad para buscar texto, el modificador <code>-H</code> hace que siempre salga al principio el archivo donde está el texto a buscar, no importa que se repita el archivo <code>-r</code> lo hace recursivo, &#8220;Posted&#8221; es el string de texto a buscar, y con el <code>.</code> especifico dónde quiero buscarlo (el punto quiere decir <em>búscalo aquí, en el directorio donde estoy parado</em>).</p>
-
-<p>La salida de este comando arrojó lo siguiente:</p>
-
-<pre><code>./.themes/classic/source/_includes/post/author.html:
-./public/blog/2013/03/25/hola-mundo-bienvenido-a-wordp-dot-dot-dot-oh/index.html:&lt;span class="byline author vcard"&gt;Posted by &lt;span class="fn"&gt;Álex Acuña Viera&lt;/span&gt;&lt;/span&gt;
-./source/_includes/post/author.html:
-</code></pre>
-
-<p>Y otras líneas más (era mucho, pero así se entiende).</p>
-
-<p>Si se fijan, el primero tiene el layout de Octopress, luego vienen los archivos compilados en HTML de los posts anteriores, y el resto eran los archivos markdown donde estoy escribiendo en este momento.</p>
-
-<p>Así, puedo ir, modificar el archivo y listo.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[¡Hola Mundo! Bienvenido a WordP... oh.]]></title>
